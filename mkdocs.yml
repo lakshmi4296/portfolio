@@ -33,10 +33,16 @@ theme:
   icon:
     logo: material/robot
 
+nav:
+  - Home: index.md
+  - Resume: resume.md
+  - Projects: projects.md
+
 plugins:
   - search
 
 markdown_extensions:
+  - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -44,6 +50,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+
+extra_css:
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/mathjax.js

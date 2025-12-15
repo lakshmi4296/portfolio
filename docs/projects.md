@@ -39,5 +39,3 @@ Time-series forecasting using LSTM networks to predict stock trends.
 - **Results**: Achieved 85% directional accuracy on test set.
 
 $f(t) = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f)$
-
-[View on GitHub](https://github.com/username/stock-predictor){ .md-button }
