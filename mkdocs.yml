@@ -3,8 +3,7 @@ site_url: https://username.github.io/portfolio/
 site_author: Your Name
 site_description: Portfolio of an AI/ML Engineer showcasing projects and skills.
 
-repo_name: username/portfolio
-repo_url: https://github.com/username/portfolio
+
 
 theme:
   name: material
@@ -33,7 +32,6 @@ theme:
     - content.code.copy
   icon:
     logo: material/robot
-    repo: fontawesome/brands/github
 
 plugins:
   - search
