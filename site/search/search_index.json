@@ -1,1 +1,154 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"","title":"About Me","text":"<p>Hi there! \ud83d\udc4b</p> <p>I'm an **AI/ML Engineer** who loves building intelligent systems that solve real problems.</p> <p>I code in Python, play with PyTorch, and love exploring new tech.</p>"},{"location":"#what-i-do","title":"What I Do","text":"<p>I enjoy working on:</p> <ul> <li>Machine Learning: Teaching computers to see, read, and learn.</li> <li>Data Engineering: Wrangling messy data into clean insights.</li> <li>Deployment: Putting models into the real world.</li> </ul> <p>Read My Resume View My Projects</p>"},{"location":"#resume","title":"Resume","text":""},{"location":"#experience","title":"Experience","text":""},{"location":"#senior-ml-engineer-tech-corp","title":"Senior ML Engineer | Tech Corp","text":"<p>2023 - Present</p> <ul> <li>Led a team of 4 engineers to deploy a recommendation engine serving 1M+ users.</li> <li>Reduced model inference latency by 40% using quantization.</li> </ul>"},{"location":"#ai-researcher-university-lab","title":"AI Researcher | University Lab","text":"<p>2021 - 2023</p> <ul> <li>Published 2 papers on Natural Language Understanding at NeurIPS.</li> <li>Developed a novel attention mechanism for transformer models.</li> </ul>"},{"location":"#education","title":"Education","text":""},{"location":"#ms-in-computer-science-ai-specialization","title":"M.S. in Computer Science (AI Specialization)","text":"<p>Tech University, 2021</p>"},{"location":"#bs-in-computer-engineering","title":"B.S. in Computer Engineering","text":"<p>State College, 2019</p>"},{"location":"#skills","title":"Skills","text":"<ul> <li>Languages: Python, C++, SQL</li> <li>Frameworks: PyTorch, TensorFlow, Keras, Scikit-learn</li> <li>Tools: Docker, Kubernetes, Git, MLflow, Airflow</li> <li>Cloud: AWS (SageMaker, Lambda), Google Cloud Platform</li> </ul>"},{"location":"#projects","title":"Projects","text":"<p>Here are some of the projects I've worked on.</p>"},{"location":"#generative-ai-chatbot","title":"\ud83e\udde0 Generative AI Chatbot","text":"<p>A RAG-based chatbot that answers questions from custom documentation.</p> <ul> <li>Stack: Python, LangChain, OpenAI API, FAISS</li> <li>Key Features: Contextual understanding, source citation.</li> </ul> <pre><code># Example snippet from the bot\ndef get_response(query):\n    docs = vector_store.similarity_search(query)\n    chain = load_qa_chain(llm, chain_type=\"stuff\")\n    return chain.run(input_documents=docs, question=query)\n</code></pre>"},{"location":"#computer-vision-traffic-analyzer","title":"\ud83d\udc41\ufe0f Computer Vision Traffic Analyzer","text":"<p>Real-time object detection model to count vehicles and analyze traffic flow.</p> <ul> <li>Stack: YOLOv8, OpenCV, PyTorch</li> <li>Key Features: Real-time inference on edge devices.</li> </ul> <p> (Replace with your actual project image)</p>"},{"location":"#stock-price-predictor","title":"\ud83d\udcc8 Stock Price Predictor","text":"<p>Time-series forecasting using LSTM networks to predict stock trends.</p> <ul> <li>Stack: TensorFlow, Pandas, Scikit-learn</li> <li>Results: Achieved 85% directional accuracy on test set.</li> </ul> <p>\\(f(t) = \\sigma(W_f \\cdot [h_{t-1}, x_t] + b_f)\\)</p>"},{"location":"projects/","title":"Projects","text":"<p>Here are some of the projects I've worked on.</p>"},{"location":"projects/#generative-ai-chatbot","title":"\ud83e\udde0 Generative AI Chatbot","text":"<p>A RAG-based chatbot that answers questions from custom documentation.</p> <ul> <li>Stack: Python, LangChain, OpenAI API, FAISS</li> <li>Key Features: Contextual understanding, source citation.</li> </ul> <pre><code># Example snippet from the bot\ndef get_response(query):\n    docs = vector_store.similarity_search(query)\n    chain = load_qa_chain(llm, chain_type=\"stuff\")\n    return chain.run(input_documents=docs, question=query)\n</code></pre>"},{"location":"projects/#computer-vision-traffic-analyzer","title":"\ud83d\udc41\ufe0f Computer Vision Traffic Analyzer","text":"<p>Real-time object detection model to count vehicles and analyze traffic flow.</p> <ul> <li>Stack: YOLOv8, OpenCV, PyTorch</li> <li>Key Features: Real-time inference on edge devices.</li> </ul> <p> (Replace with your actual project image)</p>"},{"location":"projects/#stock-price-predictor","title":"\ud83d\udcc8 Stock Price Predictor","text":"<p>Time-series forecasting using LSTM networks to predict stock trends.</p> <ul> <li>Stack: TensorFlow, Pandas, Scikit-learn</li> <li>Results: Achieved 85% directional accuracy on test set.</li> </ul> <p>\\(f(t) = \\sigma(W_f \\cdot [h_{t-1}, x_t] + b_f)\\)</p>"},{"location":"resume/","title":"Resume","text":""},{"location":"resume/#experience","title":"Experience","text":""},{"location":"resume/#senior-ml-engineer-tech-corp","title":"Senior ML Engineer | Tech Corp","text":"<p>2023 - Present</p> <ul> <li>Led a team of 4 engineers to deploy a recommendation engine serving 1M+ users.</li> <li>Reduced model inference latency by 40% using quantization.</li> </ul>"},{"location":"resume/#ai-researcher-university-lab","title":"AI Researcher | University Lab","text":"<p>2021 - 2023</p> <ul> <li>Published 2 papers on Natural Language Understanding at NeurIPS.</li> <li>Developed a novel attention mechanism for transformer models.</li> </ul>"},{"location":"resume/#education","title":"Education","text":""},{"location":"resume/#ms-in-computer-science-ai-specialization","title":"M.S. in Computer Science (AI Specialization)","text":"<p>Tech University, 2021</p>"},{"location":"resume/#bs-in-computer-engineering","title":"B.S. in Computer Engineering","text":"<p>State College, 2019</p>"},{"location":"resume/#skills","title":"Skills","text":"<ul> <li>Languages: Python, C++, SQL</li> <li>Frameworks: PyTorch, TensorFlow, Keras, Scikit-learn</li> <li>Tools: Docker, Kubernetes, Git, MLflow, Airflow</li> <li>Cloud: AWS (SageMaker, Lambda), Google Cloud Platform</li> </ul>"}]}
+{
+    "config": {
+        "lang": [
+            "en"
+        ],
+        "separator": "[\\s\\-]+",
+        "pipeline": [
+            "stopWordFilter"
+        ],
+        "fields": {
+            "title": {
+                "boost": 1000.0
+            },
+            "text": {
+                "boost": 1.0
+            },
+            "tags": {
+                "boost": 1000000.0
+            }
+        }
+    },
+    "docs": [
+        {
+            "location": "",
+            "title": "About Me",
+            "text": "<p>Hi there! \ud83d\udc4b</p> <p>I’m an AI/ML engineer who loves turning wild ideas into real AI that actually works. </p> <p>I code in Python, play with PyTorch, and love exploring new tech.</p>"
+        },
+        {
+            "location": "#what-i-do",
+            "title": "What I Do",
+            "text": "<p>I enjoy working on:</p> <ul> <li>Machine Learning: Teaching computers to see, read, and learn.</li> <li>Data Engineering: Wrangling messy data into clean insights.</li> <li>Deployment: Putting models into the real world.</li> </ul> <p>Read My Resume View My Projects</p>"
+        },
+        {
+            "location": "#resume",
+            "title": "Resume",
+            "text": ""
+        },
+        {
+            "location": "#experience",
+            "title": "Experience",
+            "text": ""
+        },
+        {
+            "location": "#senior-ml-engineer-tech-corp",
+            "title": "Senior ML Engineer | Tech Corp",
+            "text": "<p>2023 - Present</p> <ul> <li>Led a team of 4 engineers to deploy a recommendation engine serving 1M+ users.</li> <li>Reduced model inference latency by 40% using quantization.</li> </ul>"
+        },
+        {
+            "location": "#ai-researcher-university-lab",
+            "title": "AI Researcher | University Lab",
+            "text": "<p>2021 - 2023</p> <ul> <li>Published 2 papers on Natural Language Understanding at NeurIPS.</li> <li>Developed a novel attention mechanism for transformer models.</li> </ul>"
+        },
+        {
+            "location": "#education",
+            "title": "Education",
+            "text": ""
+        },
+        {
+            "location": "#ms-in-computer-science-ai-specialization",
+            "title": "M.S. in Computer Science (AI Specialization)",
+            "text": "<p>Tech University, 2021</p>"
+        },
+        {
+            "location": "#bs-in-computer-engineering",
+            "title": "B.S. in Computer Engineering",
+            "text": "<p>State College, 2019</p>"
+        },
+        {
+            "location": "#skills",
+            "title": "Skills",
+            "text": "<ul> <li>Languages: Python, C++, SQL</li> <li>Frameworks: PyTorch, TensorFlow, Keras, Scikit-learn</li> <li>Tools: Docker, Kubernetes, Git, MLflow, Airflow</li> <li>Cloud: AWS (SageMaker, Lambda), Google Cloud Platform</li> </ul>"
+        },
+        {
+            "location": "#projects",
+            "title": "Projects",
+            "text": "<p>Here are some of the projects I've worked on.</p>"
+        },
+        {
+            "location": "#generative-ai-chatbot",
+            "title": "\ud83e\udde0 Generative AI Chatbot",
+            "text": "<p>A RAG-based chatbot that answers questions from custom documentation.</p> <ul> <li>Stack: Python, LangChain, OpenAI API, FAISS</li> <li>Key Features: Contextual understanding, source citation.</li> </ul> <pre><code># Example snippet from the bot\ndef get_response(query):\n    docs = vector_store.similarity_search(query)\n    chain = load_qa_chain(llm, chain_type=\"stuff\")\n    return chain.run(input_documents=docs, question=query)\n</code></pre>"
+        },
+        {
+            "location": "#computer-vision-traffic-analyzer",
+            "title": "\ud83d\udc41\ufe0f Computer Vision Traffic Analyzer",
+            "text": "<p>Real-time object detection model to count vehicles and analyze traffic flow.</p> <ul> <li>Stack: YOLOv8, OpenCV, PyTorch</li> <li>Key Features: Real-time inference on edge devices.</li> </ul> <p> (Replace with your actual project image)</p>"
+        },
+        {
+            "location": "#stock-price-predictor",
+            "title": "\ud83d\udcc8 Stock Price Predictor",
+            "text": "<p>Time-series forecasting using LSTM networks to predict stock trends.</p> <ul> <li>Stack: TensorFlow, Pandas, Scikit-learn</li> <li>Results: Achieved 85% directional accuracy on test set.</li> </ul> <p>\\(f(t) = \\sigma(W_f \\cdot [h_{t-1}, x_t] + b_f)\\)</p>"
+        },
+        {
+            "location": "projects/",
+            "title": "Projects",
+            "text": "<p>Here are some of the projects I've worked on.</p>"
+        },
+        {
+            "location": "projects/#generative-ai-chatbot",
+            "title": "\ud83e\udde0 Generative AI Chatbot",
+            "text": "<p>A RAG-based chatbot that answers questions from custom documentation.</p> <ul> <li>Stack: Python, LangChain, OpenAI API, FAISS</li> <li>Key Features: Contextual understanding, source citation.</li> </ul> <pre><code># Example snippet from the bot\ndef get_response(query):\n    docs = vector_store.similarity_search(query)\n    chain = load_qa_chain(llm, chain_type=\"stuff\")\n    return chain.run(input_documents=docs, question=query)\n</code></pre>"
+        },
+        {
+            "location": "projects/#computer-vision-traffic-analyzer",
+            "title": "\ud83d\udc41\ufe0f Computer Vision Traffic Analyzer",
+            "text": "<p>Real-time object detection model to count vehicles and analyze traffic flow.</p> <ul> <li>Stack: YOLOv8, OpenCV, PyTorch</li> <li>Key Features: Real-time inference on edge devices.</li> </ul> <p> (Replace with your actual project image)</p>"
+        },
+        {
+            "location": "projects/#stock-price-predictor",
+            "title": "\ud83d\udcc8 Stock Price Predictor",
+            "text": "<p>Time-series forecasting using LSTM networks to predict stock trends.</p> <ul> <li>Stack: TensorFlow, Pandas, Scikit-learn</li> <li>Results: Achieved 85% directional accuracy on test set.</li> </ul> <p>\\(f(t) = \\sigma(W_f \\cdot [h_{t-1}, x_t] + b_f)\\)</p>"
+        },
+        {
+            "location": "resume/",
+            "title": "Resume",
+            "text": ""
+        },
+        {
+            "location": "resume/#experience",
+            "title": "Experience",
+            "text": ""
+        },
+        {
+            "location": "resume/#senior-ml-engineer-tech-corp",
+            "title": "Senior ML Engineer | Tech Corp",
+            "text": "<p>2023 - Present</p> <ul> <li>Led a team of 4 engineers to deploy a recommendation engine serving 1M+ users.</li> <li>Reduced model inference latency by 40% using quantization.</li> </ul>"
+        },
+        {
+            "location": "resume/#ai-researcher-university-lab",
+            "title": "AI Researcher | University Lab",
+            "text": "<p>2021 - 2023</p> <ul> <li>Published 2 papers on Natural Language Understanding at NeurIPS.</li> <li>Developed a novel attention mechanism for transformer models.</li> </ul>"
+        },
+        {
+            "location": "resume/#education",
+            "title": "Education",
+            "text": ""
+        },
+        {
+            "location": "resume/#ms-in-computer-science-ai-specialization",
+            "title": "M.S. in Computer Science (AI Specialization)",
+            "text": "<p>Tech University, 2021</p>"
+        },
+        {
+            "location": "resume/#bs-in-computer-engineering",
+            "title": "B.S. in Computer Engineering",
+            "text": "<p>State College, 2019</p>"
+        },
+        {
+            "location": "resume/#skills",
+            "title": "Skills",
+            "text": "<ul> <li>Languages: Python, C++, SQL</li> <li>Frameworks: PyTorch, TensorFlow, Keras, Scikit-learn</li> <li>Tools: Docker, Kubernetes, Git, MLflow, Airflow</li> <li>Cloud: AWS (SageMaker, Lambda), Google Cloud Platform</li> </ul>"
+        }
+    ]
+}
