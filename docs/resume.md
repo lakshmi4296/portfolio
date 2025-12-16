@@ -34,9 +34,11 @@
 
 ## **RESEARCH YOU CAN ACCESS**
 
+<div class="research-section" markdown="1">
 - [ViReSkill: Vision-Grounded Replanning with Skill Memory for LLM-Based Planning in Lifelong Robot Learning](https://arxiv.org/abs/2509.24219)
 - [Memory Transfer Planning: LLM-driven Context-Aware Code Adaptation for Robot Manipulation](https://arxiv.org/abs/2509.24160)
 - [EnvBridge: Bridging Diverse Environments with Cross-Environment Knowledge Transfer for Embodied AI](https://arxiv.org/abs/2410.16919)
+</div>
 
 ## **EDUCATION BACKGROUND**
 
