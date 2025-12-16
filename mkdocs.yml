@@ -1,4 +1,4 @@
-site_name: AI/ML Engineer Portfolio
+site_name: Lakshmi Subramanian - Portfolio
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
@@ -45,8 +45,7 @@ theme:
     - search.highlight
     - content.code.copy
     - toc.integrate
-  icon:
-    logo: material/robot
+
 
 nav:
   - Home: index.md
