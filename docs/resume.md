@@ -32,6 +32,12 @@
     - **ETL & Data Warehousing**: Built Talend and SQL-based ETL pipelines for Snowflake and Hive, enabling incremental loads, error logging, and email alerts; automated workflows using TAC and Spark.
     - **Big Data & Visualization**: Developed PySpark jobs for HDFS/HBase processing and Hive–MySQL integration; created Power BI dashboards to support analytics for manufacturing and research clients.
 
+## **RESEARCH YOU CAN ACCESS**
+
+- [ViReSkill: Vision-Grounded Replanning with Skill Memory for LLM-Based Planning in Lifelong Robot Learning](https://arxiv.org/abs/2509.24219)
+- [Memory Transfer Planning: LLM-driven Context-Aware Code Adaptation for Robot Manipulation](https://arxiv.org/abs/2509.24160)
+- [EnvBridge: Bridging Diverse Environments with Cross-Environment Knowledge Transfer for Embodied AI](https://arxiv.org/abs/2410.16919)
+
 ## **EDUCATION BACKGROUND**
 
 ???+ quote "Master of Technology in Intelligent Systems"
