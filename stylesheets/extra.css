@@ -1,0 +1,335 @@
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--md-primary-fg-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Flex layout for desktop to put image next to text */
+@media screen and (min-width: 768px) {
+    .hero-container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .profile-pic {
+        margin-bottom: 0;
+    }
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--md-primary-fg-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Flex layout for desktop to put image next to text */
+@media screen and (min-width: 768px) {
+    .hero-container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .profile-pic {
+        margin-bottom: 0;
+    }
+}
+
+/* Custom blue background for quote admonitions */
+.md-typeset .admonition.quote,
+.md-typeset details.quote {
+    border-color: rgb(68, 138, 255);
+}
+
+.md-typeset .quote>.admonition-title,
+.md-typeset .quote>summary {
+    background-color: rgba(68, 138, 255, 0.1);
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--md-primary-fg-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Flex layout for desktop to put image next to text */
+@media screen and (min-width: 768px) {
+    .hero-container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .profile-pic {
+        margin-bottom: 0;
+    }
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--md-primary-fg-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Flex layout for desktop to put image next to text */
+@media screen and (min-width: 768px) {
+    .hero-container {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .profile-pic {
+        margin-bottom: 0;
+    }
+}
+
+/* Custom blue background for quote admonitions */
+.md-typeset .admonition.quote,
+.md-typeset details.quote {
+    border-color: rgb(68, 138, 255);
+}
+
+.md-typeset .quote>.admonition-title,
+.md-typeset .quote>summary {
+    background-color: rgba(68, 138, 255, 0.1);
+}
+
+.md-typeset .quote>.admonition-title::before,
+.md-typeset .quote>summary::before {
+    background-color: rgb(68, 138, 255);
+}
+
+/* Resume Layout with Flexbox */
+.resume-wrapper {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    position: relative;
+    max-width: 100%;
+}
+
+.resume-main {
+    flex: 1;
+    min-width: 0;
+    /* Prevents overflow */
+    max-width: calc(100% - 282px);
+    /* Ensures main content doesn't push sidebar */
+}
+
+/* Skills in Sidebar Area - Fun & Cool! */
+.resume-sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    margin-top: 1.5rem;
+    /* Align with first header */
+    background: linear-gradient(135deg,
+            rgba(68, 138, 255, 0.08) 0%,
+            rgba(139, 92, 246, 0.08) 50%,
+            rgba(236, 72, 153, 0.08) 100%);
+    border-radius: 20px;
+    padding: 1rem;
+    box-shadow:
+        0 8px 32px rgba(68, 138, 255, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(68, 138, 255, 0.25);
+    backdrop-filter: blur(12px);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: sticky;
+    top: 80px;
+    animation: slideInRight 0.6s ease-out;
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.resume-sidebar:hover {
+    transform: translateY(-6px) rotate(-1deg);
+    box-shadow:
+        0 16px 64px rgba(68, 138, 255, 0.3),
+        0 0 0 1px rgba(139, 92, 246, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-color: rgba(139, 92, 246, 0.4);
+}
+
+.resume-sidebar h3 {
+    background: linear-gradient(135deg, rgb(68, 138, 255), rgb(139, 92, 246), rgb(236, 72, 153));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 0.95rem;
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+}
+
+.resume-sidebar strong {
+    display: block;
+    color: var(--md-default-fg-color);
+    font-size: 0.65rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.15rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+.resume-sidebar code {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(68, 138, 255, 0.12), rgba(139, 92, 246, 0.12));
+    color: rgb(68, 138, 255);
+    padding: 0.2rem 0.4rem;
+    border-radius: 8px;
+    font-size: 0.6rem;
+    margin: 0.15rem 0.1rem;
+    border: 1px solid rgba(68, 138, 255, 0.25);
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.resume-sidebar code::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.resume-sidebar code:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.resume-sidebar code:hover {
+    background: linear-gradient(135deg, rgba(68, 138, 255, 0.25), rgba(139, 92, 246, 0.25));
+    transform: translateY(-2px) scale(1.08) rotate(2deg);
+    box-shadow:
+        0 4px 12px rgba(68, 138, 255, 0.4),
+        0 0 0 2px rgba(139, 92, 246, 0.1);
+    border-color: rgba(139, 92, 246, 0.4);
+    color: rgb(139, 92, 246);
+}
+
+.resume-sidebar code:active {
+    transform: translateY(0) scale(0.95);
+}
+
+/* Add rainbow shimmer on specific skills */
+.resume-sidebar code:nth-child(3n+1):hover {
+    color: rgb(236, 72, 153);
+    border-color: rgba(236, 72, 153, 0.4);
+}
+
+.resume-sidebar code:nth-child(3n+2):hover {
+    color: rgb(139, 92, 246);
+    border-color: rgba(139, 92, 246, 0.4);
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 1220px) {
+    .resume-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .resume-main {
+        max-width: 100%;
+    }
+
+    .resume-sidebar {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        position: relative;
+        top: 0;
+        animation: slideInDown 0.6s ease-out;
+    }
+
+    @keyframes slideInDown {
+        from {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+/* Custom scrollbar for sidebar */
+.resume-sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.resume-sidebar::-webkit-scrollbar-track {
+    background: rgba(68, 138, 255, 0.05);
+    border-radius: 10px;
+}
+
+.resume-sidebar::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(68, 138, 255, 0.4), rgba(139, 92, 246, 0.4));
+    border-radius: 10px;
+}
+
+.resume-sidebar::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgba(68, 138, 255, 0.6), rgba(139, 92, 246, 0.6));
+}
