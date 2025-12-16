@@ -1,6 +1,20 @@
 site_name: AI/ML Engineer Portfolio
-site_url: https://username.github.io/portfolio/
-site_author: Your Name
+extra:
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:lakshmi.4296@gmail.com
+      name: Email Me
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/lakshmi-subramanian-b1700b268/
+      name: LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/lakshmi4296/
+      name: GitHub
+    - icon: fontawesome/solid/graduation-cap
+      link: https://scholar.google.com/citations?user=YHc_DToAAAAJ&hl=en
+      name: Google Scholar
+site_url: https://lakshmi4296.github.io/portfolio/
+site_author: Lakshmi Subramanian
 site_description: Portfolio of an AI/ML Engineer showcasing projects and skills.
 
 
@@ -37,7 +51,7 @@ theme:
 nav:
   - Home: index.md
   - Resume: resume.md
-  - Projects: projects.md
+
 
 plugins:
   - search
